@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ram Rajavadha - Tech Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Ram Rajavadha</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="hero-content">
+            <h1 class="animate__animated animate__fadeInDown">Hi, I'm <span>Ram Rajavadha</span></h1>
+            <p class="animate__animated animate__fadeInUp">A Passionate Developer & Tech Enthusiast</p>
+            <a href="#projects" class="btn animate__animated animate__fadeInUp">Explore My Work</a>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>I am currently pursuing my B.Tech in Electrical Engineering from the National Institute of Technology, Surat. My passion lies in developing advanced robotic systems and working with cutting-edge technologies in the field of computer vision and autonomous systems. During my time as an intern at Stride Dynamics, I honed my skills in C++ and computer vision algorithms, working on drone navigation and real-time control systems.</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>My Projects</h2>
+        <div class="project-grid1">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>SWEEP - Beach Cleaning Robot</h3>
+                    <button class="toggle-description">+</button>
+                </div>
+                <div class="project-body">
+                    <img src="project1.png" alt="SWEEP - Beach Cleaning Robot">
+                    <p>Developed Python-based algorithms and integrated ROS framework for autonomous movement, implemented with Gazebo simulation. Applied GroundingDINO ML model for waste sorting and designed a robust power circuit for real-time tracking using ultrasonic/GPS sensors.</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-grid2">    
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Teleoperation with ROS</h3>
+                    <button class="toggle-description">+</button>
+                </div>
+                <div class="project-body">
+                    <img src="project2.png" alt="Teleoperation with ROS">
+                    <p>Developed a differential drive robot controlled wirelessly via joystick and keyboard. Utilized ROS2 framework and Gazebo simulator for modeling and simulation, and implemented ROS2 commands with Python libraries for robot functionality.</p>
+                </div>
+            </div>
+        </div>
+        <div class="project-grid3">
+            <div class="project-card">
+                <div class="project-header">
+                    <h3>Frequency Meter</h3>
+                    <button class="toggle-description">+</button>
+                </div>
+                <div class="project-body">
+                    <img src="project3.png" alt="Frequency Meter">
+                    <p>Built a frequency meter using Proteus and Atmel Studios to count the frequency of an unknown wave pulse. Employed embedded systems and Proteus libraries in Atmel Studios for the project.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact" style="padding-bottom: 0px">
+        <h2>Contact Me</h2>
+        <form action="http://localhost:3000/submit-form" method="post">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+        <img class="gif" src="C:\Ram 2.0\HTML\XOsX.gif">
+    </section>
+    
+    <footer>
+        <p>&copy; 2024 Ram Rajavadha. All rights reserved.</p>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ram-rajavadha-01010010am" target="_blank">LinkedIn</a>
+            <a href="https://github.com/Ram-rajavadha02" target="_blank">GitHub</a>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
