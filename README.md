@@ -33,3 +33,7 @@ This is the personal portfolio website of Ram Rajavadha, showcasing his skills, 
 - CSS3
 - JavaScript
 - Particle.js
+
+## View the Website
+
+Visit the live website [here](https://ram-rajavadha02.github.io/My_Portfolio/).
