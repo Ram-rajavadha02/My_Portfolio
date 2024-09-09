@@ -1,6 +1,6 @@
 # Ram Rajavadha - Portfolio Website
 
-This is the personal portfolio website of Ram Rajavadha, showcasing his skills, projects, and experience in web development and technology.
+This is my personal portfolio website, showcasing my skills, projects, and experience in web development and technology.
 
 ## Features
 
